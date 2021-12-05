@@ -83,20 +83,12 @@
     margin-left: 2rem;
 }
 
-.chatSectionStage .user-name {
-    margin-left: 2.1rem;
-}
-
 .chatSectionStage .task-status {
     margin-left: 2.9rem;
 }
 
 .chatSectionStage .task-description {
     margin-left: 0.7rem;
-}
-
-.chatSection .user-name {
-    margin-left: 1rem;
 }
 
 .chatSection .task-status {
@@ -163,8 +155,4 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.userName {
-    font-size: 12px;
 }

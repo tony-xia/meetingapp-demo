@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App in a meeting demo</title>
+    <title>Demo</title>
     <link rel="stylesheet" href="/static/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://statics.teams.cdn.office.net/sdk/v1.10.0/js/MicrosoftTeams.min.js"
@@ -61,7 +61,7 @@
         </div>
     </div>
     <script src="/lib/microsoft/signalr/dist/browser/signalr.js"></script>
-    <script src="/lib/microsoft/chat.js"></script>
+    <script src="/lib/microsoft/chat.js?1"></script>
     <script>
         microsoftTeams.initialize();
         $(document).ready(function () {
@@ -84,7 +84,7 @@
         // Task module to collect details from the meeting participants.
         const openTaskModule = (status) => {
             let taskInfo = {
-                title: "Status Details",
+                title: "New item",
                 height: 250,
                 width: 250,
                 url: `https://bfcc-49-181-191-229.ngrok.io/Index`,
