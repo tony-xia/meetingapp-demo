@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "AppInMeeting": {
+    "MeetingAppDemo": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
