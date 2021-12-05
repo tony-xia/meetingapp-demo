@@ -3,7 +3,6 @@
     using System;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.SignalR;
-    using Microsoft.Extensions.Logging;
 
     /// <summary>
     /// A SignalR Hub class
