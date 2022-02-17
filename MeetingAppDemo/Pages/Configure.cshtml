@@ -30,7 +30,7 @@
             function onClick() {
                 microsoftTeams.settings.setValidityState(true);
             }
-            const mainPageUrl = 'https://a9af-20-70-190-168.ngrok.io/MainPage';
+            const mainPageUrl = '<<app-url>>/MainPage';
             microsoftTeams.initialize();
             microsoftTeams.appInitialization.notifySuccess();
             microsoftTeams.settings.registerOnSaveHandler(function (saveEvent) {
